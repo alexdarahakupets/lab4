@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>DOM, работа с событиями</title>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+</head>
+
+<body>
+    <div class="button_container">
+        <div id="var1" class="button_top">Part 1</div>
+        <div id="var2" class="button_top">Part 2</div>
+        <div id="var3" class="button_top">Part 3</div>
+    </div>
+
+    <div class="container hidden" id="part1">
+        <div class="field field1"></div>
+        <div class="properties">
+            <div>
+                <label class="radio"><input type="radio" name="position" id="toStart"> In the begining</label>
+            </div>
+            <div>
+                <label class="radio"><input type="radio" name="position" id="toEnd"> In the end</label>
+            </div>
+            <div>
+                <p>Type smth inside</p><input type="text" id="innerText" />
+            </div>
+            <div>
+                <p>Select the color</p><input type="color" id="innerColor" />
+            </div>
+            <div>
+                <button id="add_1">Add</button>
+            </div>
+            <div>
+                <button id="stat">Statistic</button>
+            </div>
+            <button></button>
+        </div>
+    </div>
+
+    <div class="container hidden" id="part2">
+        <div class="field field2"></div>
+        <div class="properties">
+            <div>
+                <button id="add_2">Add</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container hidden" id="part3">
+        <div class="field field3"></div>
+        <div class="properties">
+            <div>
+                <button id="add_3">Add</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/task1.js"></script>
+    <script src="./scripts/task2.js"></script>
+    <script src="./scripts/task3.js"></script>
+</body>
+
+</html>
